@@ -1,0 +1,20 @@
+# Allowlist: CRM files, Git metadata, .local, secrets, tests and local dependencies
+# never enter the Docker build context.
+**
+!package.json
+!package-lock.json
+!index.html
+!tsconfig.json
+!vite.config.ts
+!src/
+!src/**
+!server/
+!server/index.mjs
+src/**/*.test.*
+src/**/*.spec.*
+src/**/__tests__/**
+**/*.xlsx
+**/*.xls
+**/*.csv
+**/*.docx
+**/.env*

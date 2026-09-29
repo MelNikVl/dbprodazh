@@ -1,0 +1,31 @@
+{
+  "name": "sales-compass",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 8050 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 8050 --strictPort",
+    "test": "vitest run src"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "pdfmake": "0.3.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.0.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pdfmake": "^0.3.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "prettier": "^3.9.9",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.0",
+    "vitest": "^3.2.0"
+  }
+}
